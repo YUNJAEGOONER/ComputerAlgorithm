@@ -10,4 +10,5 @@ for border in range(0,len(array)-1):
     array[border] = array[min]
     array[min] = temp
 
-print(array)
+    print(array)
+print(len(array))
